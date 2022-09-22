@@ -1,0 +1,36 @@
+{
+  "name": "baatela",
+  "version": "1.0.0",
+  "description": "backend of new chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayZee0809/Baatela_server.git"
+  },
+  "keywords": [
+    "baatela",
+    "Baatela",
+    "chat"
+  ],
+  "author": "Sayandeep Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayZee0809/Baatela_server/issues"
+  },
+  "homepage": "https://github.com/JayZee0809/Baatela_server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^11.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "socket.io": "^4.5.1"
+  }
+}
